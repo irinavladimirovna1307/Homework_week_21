@@ -1,12 +1,20 @@
-# React + Vite
+# React + Vite + Chart.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Это минимальное React-приложение, созданное с помощью Vite, с интеграцией модуля графиков Chart.js для отображения круговой диаграммы (Pie chart).
 
-Currently, two official plugins are available:
+## Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+В приложении используется React и Vite для быстрой разработки с поддержкой HMR (горячая замена модулей).  
+Для визуализации данных подключён Chart.js через React-компонент `react-chartjs-2`.
 
-## Expanding the ESLint configuration
+## Особенности
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18 + Vite для быстрой сборки и запуска
+- Используется `react-chartjs-2` и `chart.js` для построения графиков
+- На главной странице выводится круговая диаграмма (Pie chart) с тестовыми данными
+
+## Установка и запуск
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/твой_пользователь/твой_репозиторий.git
